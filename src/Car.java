@@ -23,5 +23,11 @@ public class Car {
         return engineSize;
     }
 
-
+    @Override
+    public String toString() {
+        return "Car{" +
+                "price=" + price +
+                ", engineSize=" + engineSize +
+                '}';
+    }
 }
